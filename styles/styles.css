@@ -1,0 +1,18 @@
+body {
+    text-align: center;
+    background-color: #062a77;
+    color: aliceblue; 
+  }
+p {
+  text-justify: distribute;
+  padding-top: 5px;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 5%;
+  
+
+}
+
+mainContent {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
