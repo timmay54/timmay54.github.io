@@ -1,9 +1,22 @@
+.mainContent p{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-shadow: crimson;
+  text-decoration-color: brown;
+  color: coral;
+}
+
+.section{
+  text-align: center;
+  padding-left: 20px;
+}
+
 body {
-    text-align: center;
-    background-color: #062a77;
-    color: aliceblue; 
-  }
-p {
+  text-align: center;
+  background-color: #062a77;
+  color: aliceblue; 
+}
+
+p{
   text-justify: distribute;
   padding-top: 5px;
   padding-left: 20%;
@@ -13,6 +26,14 @@ p {
 
 }
 
-mainContent {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+.myslides{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
+
+.shiz{
+  padding: 25px;
+}
+

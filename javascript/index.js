@@ -16,3 +16,8 @@ function carousel() {
   x[myIndex-1].style.display = "block";
   setTimeout(carousel, 3000);
 }
+
+function doClick(id){
+    id.innerHTML = "you hit this button"
+    alert('you clicked on something');
+}
