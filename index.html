@@ -1,53 +1,77 @@
 <!DOCTYPE html>
-<html>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en">
   <head>
-
+    <meta charset="UTF-8">
     <title>Tim Mardesen Homepage</title>
-    <link rel="stylesheet" href="styles/styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSS Files -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-    <script async src="./javascript/index.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <!-- JavaScript Files -->
+    <script src="assets/js/core/jquery.3.2.1.min.js"></script>
+    <script src="assets/js/core/popper.min.js"></script>
+    <script src="assets/js/core/bootstrap.min.js"></script>
+    
+    <script async src="assets/js/index.js"></script>
+
   </head>
   <body>
     <!-- Navigation -->
     <nav class="w3-bar w3-black">
-      <a href="~/index.html" class="w3-button w3-bar-item">Home</a>
+      <a href="index.html" class="w3-button w3-bar-item">Home</a>
       <a href="https://timmay54.github.io/First-HTML-Project/" class="w3-button w3-bar-item">Projects</a>
       <a href="pages/agriculture.html" class="w3-button w3-bar-item">Agriculture</a>
       <a href="pages/about.html" class="w3-button w3-bar-item">About</a>
+      <a href="../pages/technology.html" class="w3-button w3-bar-item">My Technology</a>
     </nav>
+
     <!-- Slide Show -->
     <section>
       <img class="mySlides" alt="Pictures coming soon." style="width:50%; height:50%; text-align: center;">
       <!--<img class="mySlides" src="img_ny.jpg" style="width:100%">
       <img class="mySlides" src="img_chicago.jpg" style="width:100%"> -->
     </section>
-    <h1>This is a forwarding website that is under construction. (GH Pages, Angular 8)</h1>
-    
-    <a href="https://timmay54.github.io/First-HTML-Project/">Portfolio of programming projects</a>
-    <a> Agricultural Achievements </a>
 
-    <h4> <a href="https://play.google.com/store/apps/details?id=com.freebandz.lost_in_peril">Check out my first app!</a>
+    <!-- Main Section -->
+    <div class="mainContent">
+      <h1>This is a forwarding website that is under construction. (GH Pages, Angular 8)</h1>
+      <ul>
+        <a href="https://timmay54.github.io/First-HTML-Project/">Portfolio of programming projects</a>
+        <a href="./pages/agriculture.html"> Agricultural Achievements </a>
+      </ul>
+        
+      <h4> 
+        <a href="https://play.google.com/store/apps/details?id=com.freebandz.lost_in_peril">Check out my first app!</a>
+      </h4>
+      <h3>Other links</h3>
+      <ul>
+          <a href="https://github.com/timmay54">GitHub</a>
+          <a href="https://www.linkedin.com/in/timothy-mardesen/">LinkedIn</a>
+          <a href="https://hub.docker.com/u/timmay545">DockerHub</a>
+      </ul>
 
-    <h3>Other links</h3>
-    <ul>
-        <a href="https://github.com/timmay54">GitHub</a>
-        <a href="https://www.linkedin.com/in/timothy-mardesen/">LinkedIn</a>
-        <a href="https://hub.docker.com/u/timmay545">DockerHub</a>
-    </ul>
+      <h4 id='date'></h4> 
+      <button class="btn btn-primary" onclick="doClick(this)">dark</button>
+      <button class="btn btn-success" onclick="doClick(this)">Click here</button>
+  </div>
 
-    <h4 id='date'></h4>
-    <button onclick="doClick(this)">Click here</button>
+
+
+
+
 
     <!-- Footer -->
     <footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
       <!-- <a href="#"><i class="fa fa-facebook-official"></i></a> -->
       <!-- <a href="#"><i class="fa fa-pinterest-p"></i></a> -->
       <!-- <a href="#"><i class="fa fa-twitter"></i></a> -->
-      <a href="https://github.com/timmay54"><i class="fa fa-github"></i></a>
-      <a href="https://www.linkedin.com/in/timothy-mardesen/"><i class="fa fa-linkedin"></i></a>
+      <a href="https://github.com/timmay54"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/timothy-mardesen/"><i class="fab fa-linkedin"></i></a>
+      <a href="https://hub.docker.com/u/timmay545"><i class="fab fa-docker"></i></a>
       <p class="w3-medium">
         Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a>
       </p>
