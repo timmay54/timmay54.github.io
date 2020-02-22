@@ -3,6 +3,8 @@
   margin: auto;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-shadow: crimson;
+  text-align: center;
+  justify-content: center;
   text-decoration-color: brown;
   text-align: center;
   color: rgb(255, 255, 255);
@@ -37,7 +39,7 @@ p{
   text-align: center;
 }
 
-.shiz{
+ul{
   padding: 25px;
 }
 
